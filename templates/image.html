@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="{{ url_for('static', filename='css/image.css') }}" rel="stylesheet">
+    
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <title>AI Demo</title>
+
+    <div class="basenavbar">
+    	<a href="/">Home</a>
+		<div class="basesubnav">
+			<button class="basesubnavbtn">AI Demo <i class="fa fa-caret-down"></i></button>
+			<div class="basesubnav-content">
+				<a href="imageclassification">Classify an image</a>
+				<a href="videoclassification">Classify a live video</a>
+				<a href="movementclassification">Classify video movements</a>
+			</div>
+		</div>
+		<div class="basesubnav">
+			<button class="basesubnavbtn">Follow me <i class="fa fa-caret-down"></i></button>
+			<div class="basesubnav-content">
+				<a class="facebook" href="https://www.facebook.com/janmarcel.kezmann"><i class="fa fa-facebook"></i></a>
+				<a class="instagram" href="http://instagram.com/jan_kezmann"><i class="fa fa-instagram"></i></a>
+				<a class="github" href="https://www.github.com/JanMarcelKezmann"><i class="fa fa-github"></i></a>
+				<a class="linkedin" href="https://www.linkedin.com/in/jan-marcel-kezmann/"><i class="fa fa-linkedin"></i></a>
+			</div>
+		</div>
+	  	<a href="contact">Contact</a> 
+	  	<div class="basesubnav">
+	    	<button class="basesubnavbtn">Github <i class="fa fa-caret-down"></i></button>
+			<div class="basesubnav-content">
+				<a href="https://github.com/JanMarcelKezmann/Flask-AI-WebApp">The Code</a>
+				<a href="https://github.com/JanMarcelKezmann">My Profile</a>
+			</div>
+	  	</div> 
+	</div>
+
+</head>
+
+<body>
+	<h2>Image Classifier</h2>
+
+	<div>
+	    <form id="upload-file" method="post" enctype="multipart/form-data">
+	        <label for="imageUpload" class="upload-label">Choose ...</label>
+	        <input type="file" name="image" id="imageUpload" accept=".png, .jpg, .jpeg">
+
+	    </form>
+
+	    <div class="image-section" style="display:none;">
+	        <div class="img-preview">
+	            <div id="imagePreview">
+	            </div>
+	        </div>
+	        <div>
+	            <button type="button" class="btn-predict" id="btn-predict">Predict!</button>
+	        </div>
+	    </div>
+
+	    <div class="loader" style="display:none;"></div>
+
+	    <h3 id="result">
+	        <span> </span>
+	    </h3>
+	</div>
+
+	<script src="{{ url_for('static', filename='js/image.js') }}" type="text/javascript"></script></body>
+
+</html>
