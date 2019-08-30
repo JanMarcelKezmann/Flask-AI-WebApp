@@ -53,5 +53,6 @@ python -m flask run
 Open http://localhost:5000 and have fun. :smiley:
 
 <p align="center">
-  <img src="https://s18.postimg.cc/5ekln1vvt/demo2.gif" width="600px" alt="">
+  <img src="https://user-images.githubusercontent.com/50111329/64039399-d1de1b00-cb5a-11e9-874d-bc2efbcc4512.png" width="600px" alt="">
+  <img src="https://gfycat.com/PersonalUnlawfulAmethystsunbird" width="600px" alt="">
 </p>
