@@ -36,13 +36,19 @@ Make sure you have the following installed:
 
 ### Run with Python
 
-Python 2.7 or 3.5+ are supported and tested.
+Python 3.6+ is supported and tested.
 
+#### For Linux
 ```shell
 $ python app.py
 ```
 
-### Play
+#### For Windows
+```shell
+python -m flask run
+```
+
+### Try it out!
 
 Open http://localhost:5000 and have fun. :smiley:
 
