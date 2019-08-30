@@ -17,7 +17,7 @@
 
 ### Clone the repo
 ```shell
-$ git clone https://github.com/mtobeiyf/Flask-AI-WepApp.git
+$ git clone https://github.com/mtobeiyf/Flask-AI-WebApp.git
 ```
 
 ### Install requirements
