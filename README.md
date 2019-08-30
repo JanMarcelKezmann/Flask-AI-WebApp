@@ -60,5 +60,6 @@ Open http://localhost:5000 and have fun. :smiley:
 </p>
 
 
-# Support or Bugs
-Just wirte me an E-Mail at: j-m.kezmann@t-online.de
+## Support or Bugs
+<p>Just write me an E-Mail: j-m.kezmann@t-online.de</p>
+<p>Or contact we via <a class="facebook" href="https://www.facebook.com/janmarcel.kezmann">facebook</a>.</p>
