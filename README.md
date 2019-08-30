@@ -58,3 +58,7 @@ Open http://localhost:5000 and have fun. :smiley:
 <p align="center">
     <img src="https://i.imgur.com/G1JcwEO.gif" width="600px" alt="">
 </p>
+
+
+# Support or Bugs
+Just wirte me an E-Mail at: j-m.kezmann@t-online.de
