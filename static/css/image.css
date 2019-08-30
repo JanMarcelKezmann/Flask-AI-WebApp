@@ -1,0 +1,147 @@
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: realtive;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.btn-predict{
+  display: inline-block;
+  padding: 12px 26px;
+  background: #666;
+  color: #fff;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.btn-predict:hover{
+  background: #333;
+  color: #F5F5F5;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #222;
+  background-color: lightgrey;
+}
+
+/* The navigation menu */
+.basenavbar {
+  overflow: hidden;
+  background-color: #333;
+  color: green; 
+}
+
+/* Navigation links */
+.basenavbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.basesubnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.basesubnav .basesubnavbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.basenavbar a:hover, .basesubnav:hover .basesubnavbtn {
+  background-color: #555;
+}
+
+/* Style the subnav content - positioned absolute */
+.basesubnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #555;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.basesubnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.basesubnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.basesubnav:hover .basesubnav-content {
+  display: block;
+}
