@@ -9,7 +9,8 @@
 - Done! :tada:
 
 <p align="center">
-  <img src="" width="600px" alt="">
+  <img src="![image](https://user-images.githubusercontent.com/50111329/64038620-c38eff80-cb58-11e9-9373-6d2554bc7834.png)
+" width="600px" alt="">
 </p>
 
 
@@ -17,7 +18,7 @@
 
 ### Clone the repo
 ```shell
-$ git clone https://github.com/mtobeiyf/keras-flask-deploy-webapp.git
+$ git clone https://github.com/mtobeiyf/Flask-AI-WepApp.git
 ```
 
 ### Install requirements
