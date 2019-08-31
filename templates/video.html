@@ -47,17 +47,12 @@
 </head>
 
 <body>
-	<h2>Clickable Buttons</h2>
-    <p>Click on the buttons to save an image in a category.</p>
-
-    <button id="add-a" class="add-a">Add A</button>
-    <button id="add-b" class="add-b">Add B</button>
-    <button id="add-c" class="add-c">Add C</button>
+	<h2>Live Webcam Video Classification</h2>
 
 	<div id="console"></div>
     <video autoplay playsinline muted id="webcam" width="480" height="640"></video>
 
-	<script src="{{ url_for('static', filename='js/movement.js') }}" type="text/javascript"></script>
+	<script src="{{ url_for('static', filename='js/video.js') }}" type="text/javascript"></script>
 
 	<div class="footer w3-responsive">
 		<h4>Contact</h4>
@@ -80,7 +75,7 @@
 			</div>
 		</div>
 	</div>
-
+	
 </body>
 
 </html>
