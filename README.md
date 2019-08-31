@@ -17,7 +17,7 @@
 
 ### Clone the repo
 ```shell
-$ git clone https://github.com/mtobeiyf/Flask-AI-WebApp.git
+$ git clone https://github.com/JanMarcelKezmann/Flask-AI-WebApp.git
 ```
 
 ### Install requirements
@@ -45,6 +45,7 @@ $ python app.py
 
 #### For Windows
 ```shell
+set FLASK_APP=app.py
 python -m flask run
 ```
 
