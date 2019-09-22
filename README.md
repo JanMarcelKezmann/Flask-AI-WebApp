@@ -17,13 +17,13 @@
 
 ### Clone the repo
 ```shell
-$ git clone https://github.com/JanMarcelKezmann/Flask-AI-WebApp.git
+git clone https://github.com/JanMarcelKezmann/Flask-AI-WebApp.git
 ```
 
 ### Install requirements
 
 ```shell
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Make sure you have the following installed:
@@ -40,7 +40,7 @@ Python 3.6+ is supported and tested.
 
 #### For Linux
 ```shell
-$ python app.py
+python app.py
 ```
 
 #### For Windows
